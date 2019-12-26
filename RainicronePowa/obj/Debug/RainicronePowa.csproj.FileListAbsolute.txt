@@ -5,3 +5,17 @@ E:\Microsoft Visual Studio\mesProjets\RainicronePowa\RainicronePowa\obj\Debug\Ra
 E:\Microsoft Visual Studio\mesProjets\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.csproj.CoreCompileInputs.cache
 E:\Microsoft Visual Studio\mesProjets\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.exe
 E:\Microsoft Visual Studio\mesProjets\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.pdb
+E:\Microsoft Visual Studio\RainicronePowa\RainicronePowa\bin\Debug\RainicronePowa.exe.config
+E:\Microsoft Visual Studio\RainicronePowa\RainicronePowa\bin\Debug\RainicronePowa.exe
+E:\Microsoft Visual Studio\RainicronePowa\RainicronePowa\bin\Debug\RainicronePowa.pdb
+E:\Microsoft Visual Studio\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.csprojAssemblyReference.cache
+E:\Microsoft Visual Studio\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.csproj.CoreCompileInputs.cache
+E:\Microsoft Visual Studio\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.exe
+E:\Microsoft Visual Studio\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.pdb
+E:\Documents\Programmation\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.csprojAssemblyReference.cache
+E:\Documents\Programmation\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.csproj.CoreCompileInputs.cache
+E:\Documents\Programmation\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.exe
+E:\Documents\Programmation\RainicronePowa\RainicronePowa\obj\Debug\RainicronePowa.pdb
+E:\Documents\Programmation\RainicronePowa\RainicronePowa\bin\Debug\RainicronePowa.exe.config
+E:\Documents\Programmation\RainicronePowa\RainicronePowa\bin\Debug\RainicronePowa.exe
+E:\Documents\Programmation\RainicronePowa\RainicronePowa\bin\Debug\RainicronePowa.pdb

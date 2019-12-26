@@ -129,6 +129,19 @@ namespace RainicronePowa
             Console.ReadKey();
         }
 
+        // Permet de gérer le caractère à afficher en fonction de la position
+        private string IsMaPos(int i,int j)
+        {
+            if (i == position[0] && j == position[1])
+            {
+                return "O";
+            }
+            else
+            {
+                return " ";
+            }
+        }
+
         // Methode qui permet d'afficher le plateau avec ses couleurs, et la position actuelle du joueur
         private void Affiche()
         {
@@ -137,15 +150,66 @@ namespace RainicronePowa
             {
                 for (int j = 0; j < nbColonne; j++)         //Pour chaque colonne
                 {
-                    // Position du joueur
-                    if (i == position[0] && j == position[1])
+                    // Case à afficher
+                    switch (monPlateau[i, j])
                     {
-                        Console.Write(" O ");
-                    }
-                    else
-                    // Case classique
-                    {
-                        Console.Write(" " + monPlateau[i, j] + " ");
+                        // Cas d'une case rose 'W'
+                        case 'W':
+                            {
+                                Console.BackgroundColor = ConsoleColor.Magenta;
+                                Console.Write(IsMaPos(i,j));
+                                Console.ResetColor();
+                            }
+                            break;
+                        // Cas d'une case vide ' ' (départ ou cases roses deja atteintes)
+                        case ' ':
+                            {
+                                Console.Write(IsMaPos(i, j));
+                            }
+                            break;
+                        // Cas d'une case Jaune 'J'
+                        case 'J':
+                            {
+                                Console.BackgroundColor = ConsoleColor.Yellow;
+                                Console.Write(IsMaPos(i, j));
+                                Console.ResetColor();
+                            }
+                            break;
+                        // Cas d'une case Rouge 'R'
+                        case 'R':
+                            {
+                                Console.BackgroundColor = ConsoleColor.Red;
+                                Console.Write(IsMaPos(i, j));
+                                Console.ResetColor();
+                            }
+                            break;
+                        // Cas d'une case Verte 'V'
+                        case 'V':
+                            {
+                                Console.BackgroundColor = ConsoleColor.Green;
+                                Console.Write(IsMaPos(i, j));
+                                Console.ResetColor();
+                            }
+                            break;
+                        // Cas d'une case Noire 'N'
+                        case 'N':
+                            {
+                                Console.Write(IsMaPos(i, j));
+                            }
+                            break;
+                        // Cas d'une case inaccessible
+                        case 'X':
+                            {
+                                Console.BackgroundColor = ConsoleColor.Gray;
+                                Console.Write(IsMaPos(i, j));
+                                Console.ResetColor();
+                            }
+                            break;
+                        default:
+                            {
+                                Console.Write(" ");
+                            }
+                            break;
                     }
                 }
                 Console.WriteLine("");
